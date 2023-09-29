@@ -1,13 +1,13 @@
 import React from "react";
 import Footer from "./components/Footer";
 import Headroom from "react-headroom";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navigation/Navbar";
 import { Routes, Route } from "react-router-dom";
-import Homepage from "./components/pages/Homepage";
+import Homepage from "./pages/Homepage";
 
 const App = () => {
   return (
-    <div className="dark:bg-black">
+    <div className="dark:bg-black dark:text-white">
       <Headroom>
         <Navbar />
       </Headroom>
